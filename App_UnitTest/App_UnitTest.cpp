@@ -1,7 +1,7 @@
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 
-#include "TestClass.h"
+#include "Token.h"
 
 TEST(GTestTest, GoogleTestFrameworkInitTest)
 {
@@ -10,6 +10,6 @@ TEST(GTestTest, GoogleTestFrameworkInitTest)
 
 TEST(TestClassTest, TestClassInitTest)
 {
-    TestClass test;
+    Token test;
 }
 
