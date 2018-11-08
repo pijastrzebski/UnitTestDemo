@@ -30,7 +30,7 @@
     <ClCompile Include="App_UnitTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\App\TestClass.cpp">
+    <ClCompile Include="..\App\Token.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
