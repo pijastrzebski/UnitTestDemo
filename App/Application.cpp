@@ -1,5 +1,6 @@
 #include "Token.h"
 
+
 int main()
 {
 	const string text{ "(13-8)-(5+3)" };

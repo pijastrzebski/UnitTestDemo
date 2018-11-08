@@ -120,9 +120,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
+    <ClCompile Include="BinaryOperation.cpp" />
+    <ClCompile Include="Parser.cpp" />
     <ClCompile Include="Token.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BinaryOperation.h" />
+    <ClInclude Include="IElement.h" />
+    <ClInclude Include="Integer.h" />
+    <ClInclude Include="Parser.h" />
     <ClInclude Include="Token.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

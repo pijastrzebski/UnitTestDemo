@@ -21,6 +21,7 @@ public:
 
 	void createLexicon(const string& text);
 	auto getTokens() const { return m_lexiconVec; }
+	auto getTokenType() const { return m_eType; }
 
 protected:
 	vector<Token> m_lexiconVec;
