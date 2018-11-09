@@ -5,7 +5,7 @@
 
 struct TokenFixture : Token, ::testing::Test
 {
-	TokenFixture() {} // TODO: DI here
+	TokenFixture() {}
 	void SetUp() override {};
 	void TearDown() override {};
 };

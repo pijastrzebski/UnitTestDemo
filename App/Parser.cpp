@@ -21,3 +21,8 @@ Parser& Parser::parse(const std::vector<Token>& tokens)
 
 	return *this;
 }
+
+bool Parser::justDoIt() const
+{
+	return false; //TODO: to implement
+}

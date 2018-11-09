@@ -128,6 +128,7 @@
     <ClInclude Include="BinaryOperation.h" />
     <ClInclude Include="IElement.h" />
     <ClInclude Include="Integer.h" />
+    <ClInclude Include="IParser.h" />
     <ClInclude Include="Parser.h" />
     <ClInclude Include="Token.h" />
   </ItemGroup>

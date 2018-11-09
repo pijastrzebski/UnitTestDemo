@@ -16,6 +16,9 @@
     <Filter Include="Source Files\Gmock">
       <UniqueIdentifier>{cd55ef97-4421-4416-8544-a62770cb495b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Mocks">
+      <UniqueIdentifier>{2df995b1-edbe-4135-a653-033243bc6aac}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\google\googletest\src\gtest-all.cc">
@@ -33,9 +36,21 @@
     <ClCompile Include="..\App\Token.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\App\Parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TokenFixture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParserMock.h">
+      <Filter>Source Files\Mocks</Filter>
+    </ClInclude>
+    <ClInclude Include="TokenTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParserTest.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

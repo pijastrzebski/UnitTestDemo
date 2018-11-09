@@ -121,6 +121,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\App\Parser.cpp" />
     <ClCompile Include="..\App\Token.cpp" />
     <ClCompile Include="..\google\gmock\src\gmock-all.cc" />
     <ClCompile Include="..\google\gmock\src\gmock_main.cc" />
@@ -133,7 +134,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ParserTest.h" />
     <ClInclude Include="TokenFixture.h" />
+    <ClInclude Include="ParserMock.h" />
+    <ClInclude Include="TokenTest.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
